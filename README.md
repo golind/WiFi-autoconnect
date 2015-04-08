@@ -35,7 +35,7 @@ or
 ./freewifi_autoconnect.sh 2>&1 | grep -v "Tonline"
 
 2012-09:    Added output for the wifiscan program, for exponential smoothing of the WiFi Quality and Signal Level,
-            and sorting due to one of the parameters (Channel, MAC, ESSID, ...).
+			and sorting due to one of the parameters (Channel, MAC, ESSID, ...).
             The output fomat is CSV: <Channel>,<Encryption>,<Quality>,<Level>,<MAC>,<ms-time>,"<ESSID>",
             with file names of format: <MAC>,<Channel>,<hexdump of "<ESSID>">,<ms-time>
             To ensure that "form follows function" and not to waste time by formatting the script, the script is now
@@ -76,14 +76,5 @@ or
 
 TODO: ESSIDs with wildcards or spaces as command line option or in a file.
 
-----------------------------------------------------------------------------
-"THE BEERWARE LICENSE" (Revision 44):
-Dr. Rolf Freitag (rolf dot freitag at email dot de) wrote this file.
-As long as you retain this notice you can do whatever
-the GPL (GNU Public License version 3) allows with this stuff.
-If you think this stuff is worth it, you can send me money via
-paypal, and get a contribution receipt if you wish, or if we met some day
-you can buy me a beer in return.
-----------------------------------------------------------------------------
 
 Dr. Rolf Freitag, 2010 - ...
